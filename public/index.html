@@ -10,15 +10,38 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-	<title>Hello, world!</title>
+	<!-- GoogleFonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="//fonts.googleapis.com/css?family=Titan+One&display=swap" rel="stylesheet">
+
+	<title>Shutdown via Webpage!</title>
+
+	<style>
+		.font-titanOne {
+			font-family: "Titan One" !important;
+		}
+	</style>
 </head>
 
-<body class="bg-light">
+<body class="bg-dark">
 	<div class="container">
 		<div class="row">
 			<div class="col min-vh-100 d-flex justify-content-center align-items-center">
-				<button class="btn btn-danger p-5 rounded-circle shadow-lg" data-toggle="modal"
-					data-target="#shutdownModal">Shut Down</button>
+				<div class="text-center">
+
+					<h1 class="font-titanOne text-white mb-5">Shutdown via Webpage!</h1>
+
+					<button class="btn btn-danger rounded shadow-lg" data-toggle="modal"
+						data-target="#shutdownModal">Shutdown Computer</button>
+
+					<p class="text-center mt-5 mb-2 text-white">
+						<span>&copy; 2021 Shutdown via Webpage.</span>
+						<span>Made with <span style="color: red">❤</span> by <a class="text-white"
+								href="https://techna.pk">Techna</a>. </span>
+
+					</p>
+
+				</div>
 			</div>
 		</div>
 	</div>
