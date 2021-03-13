@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://getquizzer.com/">
+  <a href="https://techna.pk">
     Shutdown via Webpage
   </a>
 </h1>
